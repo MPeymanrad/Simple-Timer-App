@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Comfortaa;
+}
+.title{
+    margin: 5vh;
+    text-align: center;
+    font-size: 3rem;
+}
+.time_inputs{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.time_input{
+    font-size: 2.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 10%;
+}
+button{
+    border: none;
+    border-radius: 40px;
+    font-family: Comfortaa;
+    padding: 10px 15px;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.start_btn {
+    background-color: #49FF00;
+}
+.pause_btn{
+    background-color: #FF5403;
+}
+.cancel_btn{
+    transition: .5s;
+}
+.cancel_btn:hover{
+    background-color: #FF1700;
+    color: #fff;
+}
+.buttons{
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
